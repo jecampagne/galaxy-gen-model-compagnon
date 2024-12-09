@@ -45,9 +45,11 @@ set -x
 
 swap="--swap" # for "B" group, swap="" for "A" group
 SLURM_ARRAY_TASK_ID=5 #set_size=10**SLURM_ARRAY_TASK_ID  # 0->1, 1->10, 2->100, 3->1000, 4->10000, 5->100_000
-dir_name="/gpfswork/rech/ixh/ufd72rp/diffusion_model_sdss/denoisers/"
+
+# do specify what is the <rootdir>
+dir_name="<rootdir>/diffusion_model_sdss/denoisers/"
 data_name="sdss"
-data_root_path="/gpfswork/rech/ixh/ufd72rp/datasets/"
+data_root_path="<rootdir>/datasets/"
 
 start_epoch=0 # exceptional when resume_optimize is False overwize SHUULD BE 0
 

@@ -123,7 +123,7 @@ def main():
     parser.add_argument('--noise_level_range', default= [0,255])
     parser.add_argument('--quadratic_noise', default = True) #!! make this false and see if it improves performance for medium and large noise levels. Right now we have overfitting in these noise regimes 
     parser.add_argument('--rescale', default=False ,help='rescale intensities. Do not rescale for conditional denoisers.')
-    parser.add_argument('--swap', action='store_true', default=False)  # JEC action store
+    parser.add_argument('--swap', action='store_true', default=False) #JEC action sture
     #parser.add_argument('--set_size', default=None)
     parser.add_argument('--alpha', default=None)
 
@@ -168,7 +168,7 @@ def main():
         args.num_epochs = 5
     else:
         ### repeat train images 
-        train_set  = repeat_images(train_set,args, N_total=250000) # N_total=1000000 for 40x40 images 
+        train_set  = repeat_images(train_set,args, N_total=250000)
         
     print('train: ', train_set.size(), 'test: ', test_set.size() )
 

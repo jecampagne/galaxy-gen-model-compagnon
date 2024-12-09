@@ -79,3 +79,9 @@ __pypackages__/
 *.tar
 *.out
 *~
+*.pdf
+*.png
+*.csv
+*.pkl
+*.pt
+*.json

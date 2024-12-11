@@ -10,7 +10,7 @@ generalize the underlying data distribution.[...]"*
 
 #  Three generative models
 One can use the following models:  
-  - a diffusion model based on `U-Net` (`diffusion_model_sdss`). The source of the original code is available [here](https://github.com/LabForComputationalVision/memorization_generalization_in_diffusion_models). The associated article is available [here](https://openreview.net/forum?id=ANvmVS2Yr0)
+  - a diffusion model based on `U-Net` (`diffusion_model_sdss`). The source of the original code is available [here](https://github.com/LabForComputationalVision/memorization_generalization_in_diffusion_models). The associated article is available [Kadkhodaie et al. (2024)](https://openreview.net/forum?id=ANvmVS2Yr0)
   - a flow-based model (`glow_model_sdss`). The source of the Pytorch implementation used of the `Glow` architecture is avaliable [here](https://github.com/rosinality/glow-pytorch). Notice that the original architecture was implemented in TensorFlow [here](https://github.com/openai/glow). The associated article is available at [Kingma & Dhariwal (2018)](https://proceedings.neurips.cc/paper_files/paper/2018/file/d139db6a236200b21cc7f752979132d0-Paper.pdf)
   - a GAN-based model (`lightweight_gan`). The source of the implementation used is available [here](https://github.com/lucidrains/lightweight-gan/) and the official code is available [here](ttps://github.com/odegeasslbc/FastGAN-pytorch). The associated article is available at [Liu et al. (2021)](https://openreview.net/forum?id=1Fqg133qRaI)
 

@@ -10,7 +10,7 @@ generalize the underlying data distribution.[...]"*
 
 ![images samples](./fig-model_sample_images.png)
 
-Concerning the galaxy image datasets and trained models and generated samples, as their sized are too large for this GitHub repository, they are available on a publicly accessible CNRS Cloud, and one can ask to the author to get the link. 
+Concerning the galaxy image datasets and trained models and generated samples, as their sized are too large for this GitHub repository, they are available on a publicly accessible CNRS Cloud, and one can ask me to get the link. 
 
 #  Three generative models
 One can use the following models:  

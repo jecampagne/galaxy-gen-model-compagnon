@@ -14,7 +14,7 @@ One can use the following models:
   - a flow-based model (`glow_model_sdss`). The source of the Pytorch implementation used of the `Glow` architecture is avaliable [here](https://github.com/rosinality/glow-pytorch). Notice that the original architecture was implemented in TensorFlow [here](https://github.com/openai/glow). The associated article is available at [Kingma & Dhariwal (2018)](https://proceedings.neurips.cc/paper_files/paper/2018/file/d139db6a236200b21cc7f752979132d0-Paper.pdf)
   - a GAN-based model (`lightweight_gan`). The source of the implementation used is available [here](https://github.com/lucidrains/lightweight-gan/) and the official code is available [here](ttps://github.com/odegeasslbc/FastGAN-pytorch). The associated article is available at [Liu et al. (2021)](https://openreview.net/forum?id=1Fqg133qRaI)
 
-In the three mentioned directories, one may find SLURM submission scripts (exemple for [Jean Zay at IDRIS a French supercomputer](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html) ), some adaptations of python codes to be used in the context of the artcile and notebooks to reproduce figures.
+In the three mentioned directories, one may find SLURM submission scripts (exemple for [Jean Zay at IDRIS a French supercomputer](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html) ), some adaptations of python codes to be used in the context of the article and notebooks to reproduce figures.
 
 Concerning the galaxy image datasets and trained models and generated samples, as their sized are too large for this GitHub repository, they are available on a publicly accessible CNRS Cloud, and one can ask to the author to get the link. One will then find:
 

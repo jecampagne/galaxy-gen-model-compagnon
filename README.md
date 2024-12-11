@@ -8,6 +8,8 @@ trained on non-overlapping subsets of the SDSS DR7 dataset of 64 × 64 grayscale
 visually realistic images with well-preserved morphological variable distributions, we focus on their ability to learn and
 generalize the underlying data distribution.[...]"*
 
+![images samples](./fig-model_sample_images.pdf)
+
 #  Three generative models
 One can use the following models:  
   - a diffusion model based on `U-Net` (`diffusion_model_sdss`). The source of the original code is available [here](https://github.com/LabForComputationalVision/memorization_generalization_in_diffusion_models). The associated article is available [Kadkhodaie et al. (2024)](https://openreview.net/forum?id=ANvmVS2Yr0)
